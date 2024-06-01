@@ -399,6 +399,7 @@ export interface ApiMovieMovie extends Schema.CollectionType {
     singularName: 'movie';
     pluralName: 'movies';
     displayName: 'Movie';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -408,6 +409,7 @@ export interface ApiMovieMovie extends Schema.CollectionType {
     image: Attribute.Media & Attribute.Required;
     rank: Attribute.Integer;
     category: Attribute.String & Attribute.Required;
+    youtubeUrl: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

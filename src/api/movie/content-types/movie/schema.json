@@ -33,13 +33,8 @@
       "type": "string",
       "required": true
     },
-    "youtubeUrl": {
-      "allowedTypes": [
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": false
+    "youtubeURL": {
+      "type": "string"
     }
   }
 }
